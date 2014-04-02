@@ -44,6 +44,7 @@ loop_1:
 ;; określonej wyżej procedury delay
 ;; Odmierzana liczba cykli:
 ;;  4 + W * (4 + DELAY_X * (8 + 10 * DELAY_Y))
+;; https://github.com/radomik/CycleCount/blob/master/delays.c
 delay2:
 	movwf	COUNT3			; liczba kroków pętli zewnętrznej (z rejestru W)
 loop_3_1:
